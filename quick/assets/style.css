@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&display=swap&subset=cyrillic');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    background: url(https://wallpaperscraft.ru/image/kosmos_atlantida_tumannost_zvezdy_103363_1920x1080.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: right;
+}
+
+header a {
+    right: 0;
+    margin: 20px 100px 0 0;
+    position: absolute;
+    text-decoration: none;
+}
+main{
+    text-align: center;
+    margin-top: 200px;
+    width: 100%;
+    height: 15%;
+    vertical-align: middle;
+    color: white;
+}
+h1{
+    font-size: 72px;
+}
+section {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#canvas {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+section form{
+    margin-top: 50px;
+}
+section input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+#log{
+    margin-top: -60px;
+    color: rgb(153, 0, 255);
+    padding: 10px;
+    background-color: white;
+    width: 600px;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    opacity: 0;
+}
+#log input{
+    width: 400px;
+    height: 25px;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn1 {
+    padding: 17px 40px 17px 40px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    background-color: rgb(153, 0, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn1:hover{
+    color: white;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+    border: none;
+    cursor:crosshair;
+}
+.btn2 {
+    padding: 17px 40px 17px 40px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    background-color: rgb(255, 0, 128);
+    border-radius: 5px;
+}
+.btn2:hover{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    cursor:crosshair;
+}
